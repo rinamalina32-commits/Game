@@ -1,0 +1,13 @@
+class Game {
+private:
+    sf::RenderWindow window;
+    Snake player1, player2;
+    std::vector<Food> foods;
+    int score;
+    
+public:
+    void run();
+    void handleInput();
+    void update();
+    void render();
+};
